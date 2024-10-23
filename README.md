@@ -1,4 +1,4 @@
-# copier-template-python-open-source
+# panel-copier-template
 
 A copier template for python packages developed at QuantCo using the [pixi](https://github.com/prefix-dev/pixi) package manager.
 For documentation on pixi see [here](https://pixi.sh).
@@ -6,7 +6,7 @@ For documentation on pixi see [here](https://pixi.sh).
 ## Usage
 
 ```bash
-pixi exec --spec copier --spec ruamel.yaml -- copier copy --trust https://github.com/quantco/copier-template-python-open-source <destination-path>
+pixi exec --spec copier --spec ruamel.yaml -- copier copy --trust https://github.com/philippjfr/panel-copier-template <destination-path>
 ```
 
 To update to a newer template version:
